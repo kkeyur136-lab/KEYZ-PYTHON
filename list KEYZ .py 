@@ -1,0 +1,29 @@
+list = ["keyur", "kathan", "bapu", "dev", "nandini", "prachi"]
+print(list)    ##### print list ###
+
+### add in list ###
+
+list =   [ "keyur", "kathan" , "nandini",]
+list.append("bapu")
+print(list)
+
+####  INSERT LIST###
+list =["keyur","kathan"]
+list.insert(1,"bapu")
+print (list )
+
+####remove name  ###
+list =["keyur" ,"kathan","bapu"]
+list.remove("bapu")
+print(list)
+
+
+##### specific remove###
+list=["keyur","kathan","bapu"]
+list.pop(1)
+print(list)
+
+#### clear list ##
+list=["keyur","kathan","bapu"]
+del list [:]
+print(list)
