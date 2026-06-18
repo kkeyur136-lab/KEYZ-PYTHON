@@ -1,0 +1,184 @@
+############ dictionary #######
+
+######### TASK 3 - DAY 4   ############
+
+###clear () 
+#copy ()
+## get()
+### iteam()
+####keys ()
+###pop ()
+### popiteam()
+###update()
+# value()
+
+
+### print dict  ########
+thisdict = {
+
+"brand ": "ford" ,
+"model" : "mustang" , 
+"date " : 15-6-2026 
+}
+print(thisdict)
+
+######  clear() ########
+
+thisdict={
+    "brand": " ford",
+    "model": " mustang",
+    "date": 15-6-26
+}
+thisdict.clear()
+print(thisdict)
+
+############ copy () ##############
+thisdict = {
+
+"brand ": "ford" ,
+"model" : "mustang" , 
+"date " : 15-6-2026 
+}
+mydict= thisdict.copy()
+print(thisdict)
+
+
+###############get()#######
+thisdict = {
+
+"brand": "ford" ,
+"model" : "mustang" , 
+"date " : 15-6-2026 
+}
+x = thisdict.get("brand")
+print(x)
+
+######## iteam ()##############
+
+###############get()#######
+thisdict = {
+
+"brand ": "ford" ,
+"model" : "mustang" , 
+"date " : 15-6-2026 
+}
+x = thisdict.items()
+print(x)
+
+
+########## keys()############
+
+thisdict = {
+
+"brand ": "ford" ,
+"model" : "mustang" , 
+"date " : 15-6-2026 
+}
+x = thisdict.keys()
+print(x)
+
+
+######## pop remove () ############
+
+
+thisdict = {
+
+"brand": "ford" ,
+"model" : "mustang" , 
+"date " : 15-6-2026 
+}
+thisdict.pop("brand")
+print(thisdict)
+
+####### pop iteam ####
+thisdict = {
+
+"brand": "ford" ,
+"model" : "mustang" , 
+"date " : 15-6-2026 
+}
+thisdict.popitem()      ### removres last inserted iteams #####
+print(thisdict)
+
+##### updates()
+
+
+thisdict = {
+
+"brand": "ford" ,
+"model" : "mustang" , 
+"date " : 15-6-2026 
+}
+thisdict.update({"color" :" blue "})
+print(thisdict)
+
+#### value()#########
+
+thisdict = {
+
+"brand": "ford" ,
+"model" : "mustang" , 
+"date " : 15-6-2026 
+}
+thisdict.values()
+print(thisdict)
+
+#################### 
+
+
+
+
+
+
+
+
+
+
+
+###################### if ,elif else   : TASK - 4 ##############
+
+# USE IF ,ELIF , ELASE AND CREATE ONE PROGRAM 
+# USE NESTED IF ELSE CREATE PROGRAM
+#USE MATCH AND CREATES  PROGRAM 
+
+first= int(input("enter value of a : "))
+second = int(input("enter the value of second :"))
+third  = int(input("enter the third :  "))
+
+if first > second and first > third :
+  print("first is greatest")
+elif second>first  and second>third:
+  print("second is gretest ")
+else:
+  print("third is greatest")
+
+################ nested if else ##########
+num = int(input("Enter a number: "))
+
+if num > 0:
+    if num % 2 == 0:
+        print("Positive Even Number")
+    else:
+        print("Positive Odd Number")
+else:
+    print("Negative Number or Zero")
+
+
+######## match and create program ##
+day=int(input ("enter the day : ")) 
+match day :
+   
+   case 1 : 
+      print("monday") 
+   case 2: 
+      print("tuesday") 
+   case 3 : 
+      print("wednesay") 
+   case 4 : 
+      print("thursday")
+   case 5 : 
+      print("friday")
+   case 6: 
+      print("saturday")
+   case 7: 
+      print("sunday")
